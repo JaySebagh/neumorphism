@@ -1,0 +1,73 @@
+body{
+    background-color: #e8e8e8
+  }
+  
+.card {
+    padding: 20px;
+    width: 600px;
+    min-height: 370px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px #f6f6f6,
+                -5px -5px 6px #f6f6f6;
+    transition: 0.4s;
+    margin: 10px 0 20px 0;
+}
+
+.title-container{
+    display: flex;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2e54a7;
+    margin: 15px 0 0 10px;
+}
+
+.url {
+    width: 600px;
+    height: 170px;
+    object-fit: cover;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 10px #c3c3c3,
+                inset -8px -8px 10px #cfcfcf;
+}
+
+.bio {
+    margin: 13px 0 0 10px;
+    color: rgb(31, 31, 31);
+    font-size: 15px;
+}
+
+.stack {
+    float: right;
+    margin: 28px 0 0 18px;
+    font-size: 13px;
+    color: #636363;
+}
+
+.repo-button, .demo-button{
+    display: inline-block;
+    padding: 7px 11px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+}
+
+.repo-button:hover, .demo-button:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
+
+.repo-button{
+    margin-right: 3px;
+}
+
+.demo-button{
+    margin-left: 3px;
+}

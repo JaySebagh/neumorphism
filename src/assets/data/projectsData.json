@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Hextech",
+        "bio": "Donec ex nunc, placerat et efficitur et, imperdiet sit amet lacus. Sed id velit nec mauris pharetra varius. Etiam sit amet mi vel lacus scelerisque aliquam in a justo. Cras quis finibus nibh, nec finibus libero. Ut bibendum mi sed turpis condimentum, id venenatis dui pulvinar. Quisque et nulla molestie, posuere nisl at, cursus turpis. Proin vel lorem pulvinar, luctus libero vitae, gravida nisl. Maecenas pharetra sed nisi id malesuada. Donec sit amet dapibus justo. Cras pellentesque ex ut nunc pulvinar fermentum. Curabitur in augue sit amet massa tempor scelerisque in ac magna. Ut vitae facilisis neque, sed vehicula metus.",
+        "url": "../images/hextech.png",
+        "stack": "React.JS, CSS",
+        "github": "example.com",
+        "demo": "example.com"
+    },
+    {
+        "id": 2,
+        "title": "WellDone",
+        "bio": "Donec pellentesque ex ut scelerisque vehicula. Integer sit amet faucibus purus, a volutpat nulla. Nunc quis est eget felis fermentum fermentum. Nam finibus elit et magna suscipit sagittis. Integer nec vestibulum arcu. Etiam facilisis leo vel erat ultricies tincidunt. Nunc eu gravida nisi, fermentum vulputate diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi non fringilla lectus. Morbi id dolor posuere, eleifend nunc quis, auctor ante. Vivamus laoreet, nibh vitae pulvinar vehicula, ex odio mattis ipsum, tristique volutpat sapien eros consequat felis. Sed eget ornare nisl. Suspendisse a ultrices ligula. ",
+        "url": "../images/welldone.png",
+        "stack": "Next.JS, SASS",
+        "github": "example.com",
+        "demo": "example.com"
+    },
+    {
+        "id": 3,
+        "title": "Spotifinder",
+        "bio": "Quisque metus ex, dignissim scelerisque odio et, posuere bibendum orci. Nullam imperdiet ante vulputate elit blandit, tempor varius velit sollicitudin. Vestibulum tempor turpis ante, eget porttitor arcu pellentesque in. Sed elementum diam vitae nulla condimentum, in semper justo feugiat. Vestibulum vel laoreet mauris. Nam ac dui vel nisl aliquet pellentesque. Etiam nulla velit, accumsan sit amet tincidunt ac, tristique non turpis. Vestibulum ante purus, ultricies a nulla at, iaculis volutpat magna. Nulla eu ipsum a ante mollis condimentum id gravida ipsum. ",
+        "url": "../images/spotifinder.png",
+        "stack": "React.JS, Redux, Python, Prismic, Jupyter",
+        "github": "example.com",
+        "demo": "example.com"
+    }
+]
