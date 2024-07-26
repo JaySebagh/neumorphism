@@ -1,0 +1,103 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container h1{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 900;
+    color: #444;
+    margin-top: 100px;
+}
+
+.home-container h2{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #7F00FF;
+    letter-spacing: 4px;
+}
+
+.socials-container{
+    width: 300px;
+    height: 30px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 50px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #ffffff,
+                -6px -6px 12px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social1, .social2, .social3, .social4{
+    color: #444;
+    margin-top: 2px;
+    cursor: pointer;
+    box-shadow: rgba(139, 18, 113, 0.2) 0px 8px 24px;
+    background-image: linear-gradient(45deg, #f3d5f7, #fbf6e7, #e6fcf5);
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-size: 800%;
+    mask-position: 0;
+}
+
+.social1:hover, .social2:hover, .social3:hover, .social4:hover{
+    transition: mask-position 1.5s ease,-webkit-mask-position 0.5s ease;
+    mask-position: 120%;
+    opacity: 1;
+}
+
+.social1, .social4{
+    font-size: 30px;
+}
+
+.social2{
+    font-size: 25px;
+}  
+
+.social3{
+    font-size: 33px;
+}
+
+.socials{
+    opacity: 0.8;
+}
+
+.socials-container a {
+    text-decoration: none;
+}
+
+.copied{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #444;
+    letter-spacing: 2px;
+    height: 21px;
+    opacity: 1;
+    margin-top: 75px;
+}
+
+.copied[fade='1'] {
+    animation: fade 1s linear;
+}
+
+
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+}
