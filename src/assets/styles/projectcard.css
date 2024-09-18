@@ -48,21 +48,19 @@ body{
 }
 
 .repo-button, .demo-button{
-    display: inline-block;
-    padding: 7px 11px;
-    border: 0;
+    color: #4a5568;
     text-decoration: none;
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(30px);
-    color: rgba(255,255,255,0.8);
-    cursor: pointer;
+    margin: 17px 0 0 20px;
 }
 
 .repo-button:hover, .demo-button:hover {
-    background-color: rgba(255,255,255,0.2);
-  }
+    color: rgba(74, 85, 104, 0.5);
+}
+
+.button-spacer{
+    color: #4a5568;
+    margin: 16px 5px 0 5px;
+}
 
 .repo-button{
     margin-right: 3px;

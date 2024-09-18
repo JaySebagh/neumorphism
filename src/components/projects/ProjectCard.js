@@ -10,6 +10,7 @@ const ProjectCard = ({ data } ) => {
                 <a className="repo-button" href={`//${data.github}`} target="_blank" rel="noreferrer">
                     REPO
                 </a>
+                <div className="button-spacer">–</div>
                 <a className="demo-button" href={`//${data.demo}`} target="_blank" rel="noreferrer">
                     DEMO
                 </a>
