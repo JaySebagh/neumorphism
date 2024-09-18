@@ -32,7 +32,12 @@ const Landing = () => {
     <div className="landing-container">
       <div className='panel-container'>
         <div className='left-panel'>
-          <img className="pfp" src={pfp} alt="pfp"/>
+          <div class="ring">
+            <div class="ring-outer"></div>
+            <div class="ring-inner"></div>
+            <div class="ring-track"></div>
+            <img class="pfp" src={pfp} alt="pfp"/>
+          </div>
           <h1>Jay Sebagh</h1>
           <h2>Software Engineer</h2>
           <div className="nav">
